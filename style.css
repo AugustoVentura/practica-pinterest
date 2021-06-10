@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bar{
+    display: flex;
+    position:fixed;
+    width:100%;
+}
+
+.logo{
+    width: 46px;
+    height: 46px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 17px;
+    margin-bottom: 17px;
+}
+
+.inicio{
+    padding: 16px;
+    background-color: #111;
+    border-radius: 24px;
+    margin-right: 15px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    block-size: auto;
+    margin-top: 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #111111;
+}
+
+.buscador{
+    border:thin;
+    color:#333;
+    margin-left: 7px;
+    width: 60%;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 16px;
+}
+
+.lente{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.campana{
+    width: 46px;
+    height:46px;
+    float: right;
+    margin-top: 16px;
+}
+
+.mensaje{
+    width: 47px;
+    height:46px;
+    float: right;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+
+.login{
+    width: 45px;
+    height:45px;
+    float:right;
+    margin-top: 16px;
+}
+
+.pestaña{
+    width: 45px;
+    height:45px;
+    float: right;
+    margin-top: 16px;
+}
+
+.dudas{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.agregar{
+    position:fixed;
+    right: 20px;
+    bottom:85px;
+    width: 70px;
+    height: 70px;
+}
+
+.inicio a{
+    color: #ffffff;
+    background-color: #111;
+}
